@@ -1,0 +1,30 @@
+#CircleGrid {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+
+    div {
+        padding: 20px;
+        margin: 3vw;
+        font-size: 1vw;
+        text-align: center;
+
+        img {
+            border-radius: 50%;
+            width: 12vw;
+            margin-bottom: 3vw;
+        }
+
+        h4 {
+            margin-bottom: 2vw;
+        }
+
+        p {
+            line-height: 1.5vw;
+            margin: auto;
+        }
+    }
+}
